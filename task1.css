@@ -1,0 +1,125 @@
+
+    
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+/* nav{
+    display: flex;
+} */
+nav ul {
+    list-style: none;
+    text-align:end;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right:25px;
+    padding-right:5px;
+  font-family: 'Merriweather', serif; 
+  font-size: large;
+  }
+  nav li:hover{
+    background-color: aqua;
+    color:#333;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  .title{
+    font-size: 50px;
+  }
+  
+  
+  
+  
+  .hero {
+    
+    background-size:contain;
+    color: #a41616;
+    text-align: center;
+    padding: 100px 0;
+  }
+  .hero h1{
+    font-size:90px;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: -1;
+  }
+  .hero p{
+    font-size:50px;
+  }
+  
+  .start {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+  .feature {
+    text-align: center;
+  }
+  .features p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  .images{
+      width:550px;
+      height:250px;
+  }    
